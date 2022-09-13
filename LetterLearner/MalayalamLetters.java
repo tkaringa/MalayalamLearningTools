@@ -1,7 +1,7 @@
 public class MalayalamLetters {
 
-    private static String[] letters = new String[] {"a", "b", "c", "d"};
-    private static String[] pronuciation = new String[] {"a", "b", "c", "d"};
+    private static String[] letters = new String[] {"അ", "ആ", "ഇ", "ഈ"};
+    private static String[] pronuciation = new String[] {"a", "aa", "e", "ee"};
 
         static boolean isLetterCorrect(int index, String input) {
             if(pronuciation[index].equals(input)) {
